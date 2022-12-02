@@ -1,0 +1,51 @@
+.gpt {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  padding: 2rem 6rem;
+}
+.links {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  flex: 1;
+}
+.logo {
+  margin-right: 2rem;
+}
+.logo img {
+  width: 3.91rem;
+  height: 1.00125rem;
+}
+.links .container {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+}
+.links .container > p,
+.sign p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 1.5625rem;
+  font-size: 1.125rem;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+.sign {
+  display: flex;
+  align-items: center;
+}
+.sign button {
+  background-color: #ff4820;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  font-family: var(--font-family);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1.125rem;
+  border: none;
+  outline: none;
+}
