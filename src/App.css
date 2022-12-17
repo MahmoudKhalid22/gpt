@@ -52,6 +52,7 @@ a {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: inherit;
 }
 .section-padding {
   padding: 2rem 6rem;

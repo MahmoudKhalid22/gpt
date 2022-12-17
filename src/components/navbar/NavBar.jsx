@@ -45,14 +45,14 @@ const NavBar = () => {
         {toggleMenu ? (
           <RiCloseLine
             color="#fff"
-            transition="1s"
+            // transition="1s"
             size={27}
             onClick={() => setToggleMenu(false)}
           />
         ) : (
           <RiMenu3Line
             color="#fff"
-            transition="1s"
+            // transition="1s"
             size={27}
             onClick={() => {
               setToggleMenu(true);
