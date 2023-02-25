@@ -1,0 +1,16 @@
+.gpt_holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 4rem; */
+}
+.gpt_holder div{
+    flex: 1;
+    max-width:9.375rem;
+    min-width:7.5rem;
+    margin: 4rem 1rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

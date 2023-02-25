@@ -87,9 +87,6 @@
 .menu-container .menu_container_links .menu-sign {
   display: none;
 }
-.mode {
-  margin-left: 0.5rem;
-}
 /* ********************** */
 /* QUIERIES */
 /* ********************** */
@@ -100,9 +97,7 @@
   .menu {
     display: flex;
   }
-  .mode {
-    margin: 0;
-  }
+ 
 }
 @media screen and (max-width: 43.75em) {
   .gpt {

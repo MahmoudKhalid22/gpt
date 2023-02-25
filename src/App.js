@@ -4,18 +4,21 @@ import { Article, Brand, Cta, Feature, NavBar } from "./components";
 import { Blog, Features, Footer, Header, Possibility, GPT } from "./containers";
 const App = () => {
   return (
-    <div className="gradient-bg">
+    <div className='App'>
+    <div className="gradient__bg">
       <NavBar />
-      {/* <Feature /> */}
-      {/* <Cta /> */}
-      {/* <Brand /> */}
-      {/* <Article /> */}
-      {/* <Blog /> */}
-      {/* <Features /> */}
-      {/* <Footer /> */}
       <Header />
-      {/* <Possibility /> */}
-      {/* <GPT /> */}
+      </div>
+      <Brand />
+      <GPT />
+      {/* <Feature />
+      <Possibility />
+      <Cta />
+      <Blog />
+      <Footer /> */}
+      
+      {/* <Article /> */}
+     
     </div>
   );
 };

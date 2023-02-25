@@ -12,7 +12,7 @@ a {
   color: unset;
   text-decoration: none;
 }
-.gradient-bg {
+.gradient__bg {
   background: -moz-radial-gradient(
     circle at 3% 25%,
     rgba(0, 40, 83, 1) 0%,
@@ -53,6 +53,12 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: inherit;
+
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 .section-padding {
   padding: 2rem 6rem;
@@ -64,6 +70,13 @@ a {
   -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
     both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+.normal-text {
+  background: var(--color-text);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: inherit;
 }
 /* CREATING ANIMATIONS */
 @-webkit-keyframes scale-up-center {

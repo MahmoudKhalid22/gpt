@@ -1,0 +1,42 @@
+/* .gpt_features-container_feature {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+} */
+
+h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 1.5rem;
+
+  /* identical to box height, or 312% */
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+}
+
+.gpt_features-featureTitle {
+  position: relative;
+  padding-top: 1rem;
+}
+
+.gpt_features-featureTitle::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 38px;
+  height: 3px;
+
+  background: linear-gradient(103.22deg, #ae67fa -13.86%, #f49867 99.55%),
+    #ffffff;
+}
+
+.gpt_container-featureText {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1rem;
+
+  /* or 188% */
+}

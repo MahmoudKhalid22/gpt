@@ -1,0 +1,119 @@
+.gpt_container {
+  display: flex;
+  flex-direction: column;
+
+  padding: 2rem;
+  background: var(--color-footer);
+
+  /* ff 3.6+ */
+  background: -moz-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    circle at 30% -100%,
+    #042c54 25%,
+    rgba(4, 44, 84, 1) 85%,
+    rgba(27, 120, 222, 1) 100%
+  );
+
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  width: 80%;
+  margin: 5rem auto;
+}
+/* .gpt_container .feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+} */
+.gpt_container .feature .gpt_features-container_feature {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.gpt_container .feature .gpt_features-featureTitle {
+  white-space: nowrap;
+}
+
+feature .gpt_container-featureText {
+  width: 731px;
+  font-size: 1rem;
+}
+.gpt_container .gpt_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 2rem;
+}
+.gpt_container .gpt_heading h1 {
+  font-size: 2.125rem;
+  line-height: 2.8125rem;
+  font-weight: 800;
+  font-family: var(--font-family);
+  max-width: 31.875rem;
+}
+.gpt_container .gpt_heading p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+.gpt_container .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem;
+  /* align-items: center; */
+}
+.gpt_container .container .gpt_features-container_feature {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  /* justify-content: space-between; */
+}
+
+.gpt_container .container .gpt_container-featureText {
+  width: 9.625rem;
+  padding-top: 2rem;
+}
+
+@media (max-width: 767px) {
+  .gpt_container .gpt_heading h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .gpt_container .gpt_heading {
+    gap: 1rem;
+  }
+}

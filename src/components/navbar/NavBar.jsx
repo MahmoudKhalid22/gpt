@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
 import "./navbar.css";
-import { RiMenu3Line, RiCloseLine, RiLightbulbFill } from "react-icons/ri";
-import { BsMoonStarsFill } from "react-icons/bs";
+import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
 import logo from "../../assets/logo.svg";
 
 const Menu = () => (
@@ -26,7 +25,6 @@ const Menu = () => (
 );
 const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-  const [toggleMode, setToggleMode] = useState(true);
   return (
     <div className="gpt">
       <div className="links">
@@ -69,27 +67,6 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-        )}
-      </div>
-      <div className="mode">
-        {toggleMode ? (
-          <RiLightbulbFill
-            color="#fff"
-            transition="1s"
-            size={27}
-            onClick={() => {
-              setToggleMode(false);
-            }}
-          />
-        ) : (
-          <BsMoonStarsFill
-            color="#fff"
-            transition="1s"
-            size={27}
-            onClick={() => {
-              setToggleMode(true);
-            }}
-          />
         )}
       </div>
     </div>
