@@ -3,7 +3,7 @@ import "./gpt.css";
 import { Feature } from "../../components";
 function GPT() {
   return (
-    <div className="gpt_container sec_margin" id="gpt3">
+    <div className="gpt_container section-margin section-padding" id="gpt3">
       <div className="feature">
         <Feature
           title="What is GPT-3"

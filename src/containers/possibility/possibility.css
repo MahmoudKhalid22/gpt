@@ -1,0 +1,72 @@
+.possibility {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 0.5rem;
+  /* flex-wrap: wrap; */
+}
+.possibility .possibility-image {
+  /* width: 100%; */
+}
+.possibility .possibility-image img {
+  width: 100%;
+  object-fit: cover;
+  width: 576px;
+  height: 641px;
+}
+
+.possibility .one {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  line-height: 30px;
+  margin-bottom: 1rem;
+
+  /* identical to box height, or 188% */
+
+  color: #71e5ff;
+}
+
+.possibility h1 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 2.125rem;
+  line-height: 45px;
+  margin: 1rem 0;
+}
+.possibility .first {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 30px;
+  color: #81afdd;
+  margin-bottom: 2rem;
+}
+
+.possibility .second {
+  font-family: var(--font-family);
+
+  font-size: 1rem;
+  line-height: 30px;
+
+  /* identical to box height, or 188% */
+
+  color: #ff8a71;
+}
+@media (max-width: 1024px) {
+  .possibility {
+    flex-wrap: wrap;
+    gap: 1.5rem;
+  }
+  .possibility .possibility-image img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .possibility h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .possibility .first {
+    font-size: 0.8rem;
+  }
+}

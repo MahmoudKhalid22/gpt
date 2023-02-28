@@ -1,0 +1,47 @@
+.gpt_article {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-footer);
+}
+.gpt_article_image {
+  width: 100%;
+  height: 100%;
+  background-color: var(--color-footer);
+}
+.gpt_article_image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gpt_article_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  height: 100%;
+  cursor: pointer;
+  /* gap: 2rem; */
+}
+.gpt_article_date,
+.gpt_article_info,
+.gpt_article_data {
+  font-family: var(--font-family);
+  color: #ffffff;
+}
+.gpt_article_date {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 35px;
+}
+.gpt_article_info {
+  font-weight: 800;
+  font-size: 1.625rem;
+  line-height: 30px;
+}
+.gpt_article_data {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 35px;
+}
