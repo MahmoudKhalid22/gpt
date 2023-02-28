@@ -17,7 +17,6 @@ function Blog() {
             imgUrl={blog01}
             date="Sep 26,2021"
             info="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-            data="Read Full Article"
           />
         </div>
         <div className="groupB">
@@ -25,25 +24,21 @@ function Blog() {
             imgUrl={blog02}
             date="Sep 27,2021"
             info="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-            data="Read Full Article"
           />
           <Article
             imgUrl={blog03}
             date="Sep 27,2021"
             info="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-            data="Read Full Article"
           />
           <Article
             imgUrl={blog04}
             date="Sep 27,2021"
             info="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-            data="Read Full Article"
           />
           <Article
             imgUrl={blog05}
             date="Sep 27,2021"
             info="GPT-3 and Open  AI is the future. Let us exlore how it is?"
-            data="Read Full Article"
           />
         </div>
       </div>

@@ -3,12 +3,11 @@
   justify-content: space-between;
   align-items: flex-end;
   gap: 0.5rem;
-  /* flex-wrap: wrap; */
 }
-.possibility .possibility-image {
-  /* width: 100%; */
+.possibility .possibility-img {
+  width: 100%;
 }
-.possibility .possibility-image img {
+.possibility .possibility-img img {
   width: 100%;
   object-fit: cover;
   width: 576px;
@@ -44,12 +43,8 @@
 
 .possibility .second {
   font-family: var(--font-family);
-
   font-size: 1rem;
   line-height: 30px;
-
-  /* identical to box height, or 188% */
-
   color: #ff8a71;
 }
 @media (max-width: 1024px) {
@@ -57,7 +52,7 @@
     flex-wrap: wrap;
     gap: 1.5rem;
   }
-  .possibility .possibility-image img {
+  .possibility .possibility-img img {
     width: 100%;
     height: 100%;
   }

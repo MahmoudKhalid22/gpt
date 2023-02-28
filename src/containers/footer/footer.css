@@ -1,11 +1,6 @@
-ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-}
 .footer {
   background-color: #031b34;
+  margin-top: 5rem;
 }
 .footer .footer-heading {
   font-family: var(--font-family);
@@ -25,7 +20,6 @@ a {
   font-family: "Gilroy-Medium", sans-serif;
   font-size: 18px;
   line-height: 21px;
-
   color: #ffffff;
 }
 .footer .end {
@@ -49,9 +43,6 @@ a {
   font-family: "Gilroy-Bold", sans-serif;
   font-size: 0.875rem;
   line-height: 16px;
-
-  /* identical to box height */
-
   color: #ffffff;
 }
 
@@ -72,7 +63,7 @@ a {
   gap: 7rem;
 }
 .exception {
-  width: 8rem;
+  width: 7rem;
 }
 @media screen and (max-width: 990px) {
   .footer .end {
@@ -84,12 +75,18 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer .end .left p {
+    margin-left: 1rem;
   }
   .footer_container {
     flex-wrap: wrap;
-    gap: 20%;
+    gap: 3rem;
     justify-content: center;
-    margin: 0 auto;
+    margin: 2rem auto;
   }
   .footer .end ul {
     width: 6rem;
