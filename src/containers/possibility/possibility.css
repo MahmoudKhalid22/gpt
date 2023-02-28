@@ -1,20 +1,20 @@
-.possibility {
+.poss {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   gap: 0.5rem;
 }
-.possibility .possibility-img {
+.poss .possibility-img {
   width: 100%;
 }
-.possibility .possibility-img img {
+.poss .possibility-img img {
   width: 100%;
   object-fit: cover;
   width: 576px;
   height: 641px;
 }
 
-.possibility .one {
+.poss .one {
   font-family: var(--font-family);
   font-size: 1rem;
   line-height: 30px;
@@ -25,14 +25,14 @@
   color: #71e5ff;
 }
 
-.possibility h1 {
+.poss h1 {
   font-family: var(--font-family);
   font-weight: 800;
   font-size: 2.125rem;
   line-height: 45px;
   margin: 1rem 0;
 }
-.possibility .first {
+.poss .first {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 1rem;
@@ -41,27 +41,27 @@
   margin-bottom: 2rem;
 }
 
-.possibility .second {
+.poss .second {
   font-family: var(--font-family);
   font-size: 1rem;
   line-height: 30px;
   color: #ff8a71;
 }
 @media (max-width: 1024px) {
-  .possibility {
+  .poss {
     flex-wrap: wrap;
     gap: 1.5rem;
   }
-  .possibility .possibility-img img {
+  .poss .possibility-img img {
     width: 100%;
     height: 100%;
   }
 
-  .possibility h1 {
+  .poss h1 {
     font-size: 1.5rem;
     line-height: 2rem;
   }
-  .possibility .first {
+  .poss .first {
     font-size: 0.8rem;
   }
 }
